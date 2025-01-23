@@ -1,0 +1,15 @@
+/* start Headers */
+h1 {
+    font-size: 5.875rem;
+    font-weight: 900;
+    border-bottom: .5px solid black;
+    color: var(--third);
+}
+
+h3 {
+    display: none;
+    font-size: normal;
+    font-weight: lighter;
+}
+/* end Headers */
+/* ‾‾‾‾‾‾‾‾‾‾‾ */

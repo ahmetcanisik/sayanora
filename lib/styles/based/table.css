@@ -1,0 +1,26 @@
+/* start Table */
+table {
+    background-color: var(--theme);
+    color: var(--third);
+    width: 600px;
+    max-width: 600px;
+    border-radius: 16px;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: var(--fourth);
+    color: var(--third);
+    font-weight: bold;
+}
+
+thead > tr:first-child {
+    background-color: var(--fourth);
+    border: none
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+/* end Table */
+/* ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾ */

@@ -1,0 +1,71 @@
+/* start Keyframes */
+@keyframes shadow-to-right {
+    from {
+        box-shadow: 5px 5px 6px var(--second);
+    }
+
+    25% {
+        box-shadow: -5px 0 3px var(--second);
+    }
+
+    50% {
+        box-shadow: -5px -5px 3px var(--second);
+    }
+
+    75% {
+        box-shadow: 5px 0 3px var(--second);
+    }
+
+    to {
+        box-shadow: 5px 5px 6px var(--second);
+    }
+}
+
+@keyframes shadow-mantigi {
+    from {
+        box-shadow: 0 0 10px var(--second);
+        border-radius: 16px 0;
+    }
+
+    to {
+        box-shadow: 10px 10px 10px var(--second);
+        border-radius: 16px;
+    }
+}
+
+@keyframes clicked {
+    from {
+        background: linear-gradient(45deg, var(--fourth), var(--theme), var(--theme));
+    }
+
+    50% {
+        background: linear-gradient(90deg, var(--theme), var(--fourth), var(--theme));
+        color: var(--theme);
+    }
+
+    to {
+        background: linear-gradient(120deg, var(--theme), var(--theme), var(--fourth));
+    }
+}
+
+@keyframes created-object {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes created-shake-object {
+    from {
+
+    }
+}
+/* end Keyframes */
+/* ‾‾‾‾‾‾‾‾‾‾‾‾‾‾ */

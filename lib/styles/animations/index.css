@@ -1,0 +1,5 @@
+@import url("keyframes.css");
+
+.anim-created {
+    animation: created-object 1s forwards ease-in;
+}

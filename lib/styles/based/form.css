@@ -1,0 +1,47 @@
+/* start Forms */
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input,
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: 2px solid var(--fourth);
+    outline-offset: 2px;
+}
+
+input {
+    background-color: transparent;
+    color: var(--fourth);
+    border-bottom: 2px solid var(--fourth);
+    border-radius: 16px 0;
+    &:focus, &:hover {
+        animation: shadow-mantigi 1s forwards;
+    }
+}
+
+button[type="submit"], input[type="submit"] {
+    background-color: var(--theme);
+    color: var(--fourth);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 48px;
+    &:focus {
+        animation: shadow-to-right ease-in-out 10s infinite;
+    }
+
+    &:hover {
+        animation: shadow-mantigi 1s forwards;
+    }
+
+    &:active {
+        animation: clicked 1ms forwards;
+    }
+}
+/* end Forms */
+/* ‾‾‾‾‾‾‾‾‾‾‾ */

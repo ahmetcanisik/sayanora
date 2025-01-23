@@ -1,0 +1,28 @@
+/* start Default */
+:root {
+    --theme: #222;
+    --second: rgb(40, 252, 224);
+    --third: cyan;
+    --fourth: rgb(0, 105, 105);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--theme);
+    color: var(--third);
+}
+/*  end Default  */
+/* ‾‾‾‾‾‾‾‾‾‾‾ */
